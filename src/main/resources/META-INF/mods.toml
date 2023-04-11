@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Lythium4848/MoreSwords/issues"
+
+[[mods]]
+modId="moreswords"
+version="${file.jarVersion}"
+displayName="More Swords"
+displayURL="https://lythium.dev"
+logoFile="icon.png"
+credits="Lythium"
+authors="Lythium"
+displayTest="MATCH_VERSION"
+description='''
+MoreSwords is a mod that adds more swords to the game. (duh) - from copilot
+'''
+
+[[dependencies.moreswords]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.moreswords]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,)"
+    ordering="NONE"
+    side="BOTH"
