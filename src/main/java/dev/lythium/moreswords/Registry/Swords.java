@@ -20,10 +20,10 @@ public class Swords {
     );
 
     public static final RegistryObject<SwordItem> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () ->
-            new AmethystSword(SwordTiers.DIRT_SWORD, 6, -2.4F, new Item.Properties())
+            new AmethystSword(SwordTiers.AMETHYST_SWORD, 6, -2.4F, new Item.Properties())
     );
 
     public static final RegistryObject<SwordItem> ECHO_SWORD = ITEMS.register("echo_sword", () ->
-            new EchoSword(SwordTiers.DIRT_SWORD, 10, -2.4F, new Item.Properties())
+            new EchoSword(SwordTiers.ECHO_SWORD, 10, -2.4F, new Item.Properties())
     );
 }
