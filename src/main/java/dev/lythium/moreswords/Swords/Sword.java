@@ -4,8 +4,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 
-public class AmethystSword extends SwordItem {
-    public AmethystSword(Tier tier, int attackDamageIn, float attackSpeedIn, Item.Properties builder) {
+public class Sword extends SwordItem {
+    public Sword(Tier tier, int attackDamageIn, float attackSpeedIn, Item.Properties builder) {
         super(tier, attackDamageIn, attackSpeedIn, builder);
     }
 }

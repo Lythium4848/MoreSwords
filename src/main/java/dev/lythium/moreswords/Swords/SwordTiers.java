@@ -1,19 +1,19 @@
 package dev.lythium.moreswords.Swords;
 
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
-
 import java.util.function.Supplier;
 
 public enum SwordTiers implements Tier {
     DIRT_SWORD(3, 40, 7.0F, 3, 11, () -> {
-        return Ingredient.EMPTY;
+        return Ingredient.of(Items.DIRT);
     }),
     AMETHYST_SWORD(3, 550, 7.0F, 7, 13, () -> {
-        return Ingredient.EMPTY;
+        return Ingredient.of(Items.AMETHYST_SHARD);
     }),
     ECHO_SWORD(3, 4064, 7.0F, 10, 18, () -> {
-        return Ingredient.EMPTY;
+        return Ingredient.of(Items.ECHO_SHARD);
     });
 
 
